@@ -1,0 +1,13 @@
+[package]
+name = "bloomfilter-rs"
+version = "0.1.0"
+authors = ["rink1969 <rink1969@cryptape.com>"]
+
+[dependencies]
+bit-vec = "0.4.4"
+
+[build-dependencies]
+gcc = "0.3"
+
+[dev-dependencies]
+rand = "0.3"
